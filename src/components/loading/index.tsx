@@ -6,11 +6,11 @@ import React, {
   useState,
 } from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import {router} from './map';
+import {NameType, router} from './map';
 import {styles} from './style';
 
 interface LoadingProps {
-  component: string | null;
+  component: NameType;
   initProps?: object;
 }
 

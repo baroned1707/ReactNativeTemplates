@@ -1,10 +1,16 @@
+import {FunctionComponent} from 'react';
 import CircleLoading from './containers/circle';
 
-export const CIRCLELOADING = 'CIRCLELOADING';
+export type NameType = 'CIRCLELOADING' | null;
 
-export const router = [
+interface RouterType {
+  name: NameType;
+  Component: FunctionComponent;
+}
+
+export const router: RouterType[] = [
   {
-    name: CIRCLELOADING,
+    name: 'CIRCLELOADING',
     Component: CircleLoading,
   },
 ];

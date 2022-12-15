@@ -1,10 +1,16 @@
+import {FunctionComponent} from 'react';
 import ModalLogin from './containers/login';
 
-export const MODALLOGIN = 'MODALLOGIN';
+export type NameType = 'MODALLOGIN' | null;
 
-export const router = [
+interface RouterType {
+  name: NameType;
+  Component: FunctionComponent;
+}
+
+export const router: RouterType[] = [
   {
-    name: MODALLOGIN,
-    Modal: ModalLogin,
+    name: 'MODALLOGIN',
+    Component: ModalLogin,
   },
 ];

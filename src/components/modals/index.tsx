@@ -6,11 +6,11 @@ import React, {
   useState,
 } from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import {router} from './map';
+import {NameType, router} from './map';
 import {styles} from './style';
 
 interface ModalProps {
-  component: string | null;
+  component: NameType;
   initProps?: object;
 }
 
@@ -37,7 +37,7 @@ const ModalProvider = ({children}: any) => {
 
   const mapView = () => {
     const ModalView: any =
-      router.find(item => item.name === modal.component)?.Modal || null;
+      router.find(item => item.name === modal.component)?.Component || null;
 
     return ModalView ? <ModalView {...modal.initProps} /> : <></>;
   };
