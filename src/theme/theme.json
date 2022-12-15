@@ -1,0 +1,12 @@
+{
+  "light": {
+    "primary": "gray",
+    "secondary": "white",
+    "background": "white"
+  },
+  "dark": {
+    "primary": "gray",
+    "secondary": "white",
+    "background": "white"
+  }
+}
