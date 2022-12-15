@@ -1,4 +1,4 @@
-Template Use UI Lib Component Native base ( https://docs.nativebase.io/ )
+Template Use UI Lib Component Native base v3 ( https://docs.nativebase.io/ )
 
 To change name project 
 
