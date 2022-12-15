@@ -1,6 +1,6 @@
-###Template Use UI Lib Component Native base ( ###https://docs.nativebase.io/ )
+Template Use UI Lib Component Native base ( https://docs.nativebase.io/ )
 
-###To change name project 
+To change name project 
 
 ```
 
@@ -10,17 +10,17 @@ With custom Bundle Identifier (Android only. For iOS, please use Xcode)
 
 ```
 
-###To build anroid apk
+To build anroid apk
 ```
 cd android && ./gradlew assemblerelease 
 ```
 
-###To build anroid aap
+To build anroid aap
 ```
 cd android && ./gradlew bundleRelease
 ```
 
-###Custom Splash Screen
+Custom Splash Screen
 ```
 #With Android
 Open Android Studio edit android/app/src/main/res/layout
